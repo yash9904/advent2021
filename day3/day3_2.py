@@ -7,7 +7,7 @@ def modefn(list_here, i):
 
     Returns:
         mode = the most occuring values at index i of all the strings, the values being 0 and 1. If both the values are having same frequency we choose 1
-
+    
     '''
     count_0 = 0
     count_1 = 0
