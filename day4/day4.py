@@ -3,9 +3,7 @@ import numpy as np
 with open('day4/input.txt', 'r') as f:
     k = f.read().split('\n')
 
-num_list = k[0].split(',')
-num_list = [int(num) for num in num_list]
-
+num_list = [int(num) for num in k[0].split(',')]
 
 bingo_grids = []
 
@@ -51,7 +49,6 @@ for num in num_list:
         break
 
     num_called.append(num)
-
 
 winner_board = bingo_grids[answer]
 
