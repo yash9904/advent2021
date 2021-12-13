@@ -15,4 +15,3 @@ for i in range(len(bingo_grids)):
     for k in range(5):
         bingo_grids[i][k] = bingo_grids[i][k].split(' ')[1:]
     
-print(bingo_grids[0])
