@@ -9,4 +9,10 @@ for i in range(1, len(k)):
     if i % 6 == 1:
         bingo_grids.append(k[i + 1: i + 6])
 
+bingo_grids = bingo_grids[: -1]
+
+for i in range(len(bingo_grids)):
+    for k in range(5):
+        bingo_grids[i][k] = bingo_grids[i][k].split(' ')[1:]
+    
 print(bingo_grids[0])
